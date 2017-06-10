@@ -1,0 +1,18 @@
+@media (max-width: 800px) {
+    #contenedor-menu {
+        display: none;
+    }
+    #contenedor-menu-responsive {
+        display: block;
+    }
+}
+
+@media (min-width: 800px) {
+    #contenedor-menu {
+        display: block;
+    }
+    #contenedor-menu-responsive {
+        display: none;
+    }
+}
+
