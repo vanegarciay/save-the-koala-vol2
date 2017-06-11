@@ -82,7 +82,23 @@
                     <h1 id="hs_tamano">EASY HELP</h1>
                     <h2>Save Koalas From Possible Extinction!</h2>
                     <p>Loss of koala habitat is the major threat facing koalas today. Since white settlement of Australia, roughly 80% of the koala’s habitat has been destroyed and of what remains, most occurs on privately owned land and almost none is protected.</p>
-                    <button class="btn btn-default">Read more</button>
+                    <button class="btn btn-default" data-toggle="modal" data-target="#modal-error-404">Read more</button>
+
+                    <!--MODAL -->
+
+                    <div id="modal-error-404" class="modal fade" tabindex="-1" role="dialog">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title">ERROR 400</h4>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                 </div>
+                            </div><!-- /.modal-content -->
+                        </div><!-- /.modal-dialog -->
+                    </div><!-- /.modal -->
                 </div>
                 <div class="col-md-6 col-xs-12">
                     <img src="img/cosita.jpg" id="cosita">

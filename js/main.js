@@ -7,3 +7,7 @@ barra.addEventListener("click",function(){
 $(function () {
     $('[data-toggle="tooltip"]').tooltip()
 })
+
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').focus()
+})
