@@ -159,6 +159,11 @@ nav ul li a {
     padding: 20px;
 }
 
+#carousel-koalas img {
+    max-height: 25em;
+    margin: 0 auto;
+}
+
 /*SECCION SEXTA */
 
 section.seccion_seis {
