@@ -204,6 +204,15 @@ span.price_sign, span.price_type {
     font-size: 0.3em;
 }
 
+#collapse-donate {
+    margin-top: 15px;
+}
+#collapse-donate .well {
+    color: white;
+    background-color: #41521F;
+    border: none;
+}
+
 /* FOOTER */
 footer {
     background-color: #41521F;
