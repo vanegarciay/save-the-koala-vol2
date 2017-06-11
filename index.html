@@ -197,7 +197,7 @@
                         <li>1 visits per month</li>
                         <li>PublicAPI acces</li>
                     </ul>
-                    <button class="btn btn-default">DONATE</button>
+                    <button class="btn btn-default" data-toggle="modal" data-target="#modal-donate">DONATE</button>
                 </div>
                 <div class="col-md-4 col-xs-12">
                     <h2 id="hs_tamano">GROUPS</h2>
@@ -208,8 +208,21 @@
                         <li>2 visits per month</li>
                         <li>PublicAPI acces</li>
                     </ul>
-                    <button class="btn btn-default">DONATE</button>
+                    <button class="btn btn-default" data-toggle="modal" data-target="#modal-donate">DONATE</button>
                 </div>
+                <div id="modal-donate" class="modal fade" tabindex="-1" role="dialog">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title">Tú donación se realizo con exito</h4>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                             </div>
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
                 <div class="col-md-4 col-xs-12">
                     <h2 id="hs_tamano">COMPANIES</h2>
                     <p class="price"><span class="price_sign">$</span> 59<span class="price_type">/AUD</span></p>
